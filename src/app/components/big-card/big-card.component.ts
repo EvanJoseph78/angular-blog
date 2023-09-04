@@ -11,8 +11,9 @@ export class BigCardComponent {
   @Input()
   cardTitle: string = '';
   @Input()
-  cardDescription: string =
-    'Minato Namikaze, também conhecido como "Quarto Hokage," é um personagem da série de anime e mangá "Naruto." Ele é amplamente reconhecido como um dos ninjas mais poderosos e habilidosos do universo Naruto, e isso sedeve a várias razões:';
+  cardDescription: string = '';
+  @Input()
+  Id: string = '0';
 
   constructor() {}
 }
