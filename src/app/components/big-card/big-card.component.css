@@ -1,4 +1,5 @@
 .container__big-card {
+  /* border: 1px solid red; */
   margin-left: 20px;
   margin-right: 20px;
   width: 400px;
@@ -25,4 +26,31 @@
 .big-card__photo > a > img {
   width: 100%;
   min-width: 400px;
+}
+
+/* Media query para telas menores que 900px */
+@media (max-width: 900px) {
+  .container__big-card {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100vw;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+
+  .big-card__photo > a > img {
+    width: 100%;
+    height: 100%;
+    min-width: 100vw;
+  }
+
+  .big-card__description {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .big-card__title > h1 {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
 }
