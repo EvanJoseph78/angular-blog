@@ -1,5 +1,5 @@
 .container__articles {
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
   margin-top: 30px;
   display: flex;
   flex-direction: row;
